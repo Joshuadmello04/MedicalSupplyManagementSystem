@@ -93,9 +93,9 @@ def details():
         return render_template('details.html', params=params, posts=posts)
 
 
-@app.route("/aboutus")
-def aboutus():
-    return render_template('aboutus.html', params=params)
+# @app.route("/aboutus")
+# def aboutus():
+#     return render_template('aboutus.html', params=params)
 
 
 
